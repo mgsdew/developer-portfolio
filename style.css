@@ -7,9 +7,13 @@ h1 {
     font-size: 50px;
 }
 
-section {
+h2 {
+    font-size: 40px;;
+}
+
+.flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .orange-color {
@@ -40,8 +44,35 @@ section {
     background-repeat: no-repeat;
 }
 
-.Skills-Tech{
+.skills-area {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(24, 183, 143);
+        /* margin: 0px, 5px, 0px, 5px; */
+}
+
+#backend-dev{
+    border-left: 7px solid tomato;
+}
+#full-stack-dev{
+    border-left: 7px solid sandybrown;
+}
+
+footer p{
+    text-align: center;
 }
